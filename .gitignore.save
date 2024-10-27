@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Django specific
+db.sqlite3
+*.log
+
+# Virtual environment
+venv/
+.env
+myenv/
+
+# Spyder project settings
+.spyproject
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
