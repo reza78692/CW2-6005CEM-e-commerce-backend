@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #333;
+    padding: 15px 20px; /* Add padding for spacing around navbar */
+    display: flex;
+    justify-content: flex-start; /* Align links to the right */
+    align-items: center; /* Center vertically */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    gap: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 10;
+    margin: 10;
+    display: flex;
+    gap: 100px; /* Space between links */
+}
+
+.nav-link {
+    color: #00ff00;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: darkgreen;
+}
